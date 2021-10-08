@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+
+    <h2>Total of Candidates Avaiable: {{ all_candidates | length }} </h2>
+
+    <h2>Candidates Placed: {{ placed_candidates | length }}</h2>
+
+    <h2>No. of Talents Available: {{ available_candidates | length }}</h2>
+
+{% endblock body %}

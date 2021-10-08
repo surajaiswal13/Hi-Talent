@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi-Talent</title>
+</head>
+<body>
+    <center>
+        <h1>Hi Talent</h1>
+        <a href=" {% url 'home' %} ">HOME</a> 
+        <br>
+        <a href=" {% url 'app:dashboard' %} ">DASHBOARD</a>
+        <br>
+        <a href=" {% url 'about' %} ">ABOUT US</a>
+        <br>
+
+
+    
+    {% block head %}
+        
+    {% endblock head %}
+        
+    
+    {% block body %}
+        
+    {% endblock body %}
+    </center>
+
+</body>
+</html>
